@@ -1,0 +1,21 @@
+﻿body
+{
+    background-image: url('black-and-white-city-skyline-buildings.jpg');
+}
+
+#sidebar{
+    float:left;
+    width: 25%;
+    box-sizing:border-box;
+}
+
+#main{
+    float:left;
+    width: 75%;
+    box-sizing:border-box;
+    padding-right: 20em;
+}
+
+#projects{
+
+}
