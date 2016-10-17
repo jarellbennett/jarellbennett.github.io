@@ -4,22 +4,26 @@
 <head>
     <title></title>
     <meta charset="utf-8" />
+    
     <link rel="stylesheet" type="text/css" href="Port1.css" />
+    
     
 </head>
 <body>
 
     <div class="row">
         <div class="col-sm-6 col-md-4" id="sidebar">
-            <div class="thumbnail">
+            
+                <img id="pics" src="me.jpg" alt="Picture of Me" />
+
                 <ul>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#resume">Resume</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#Engpro">Engineering Projects</a></li>
-                    <li><a href="#hobby">Hobbies</a></li>
+                    <!--<li><a href="#Engpro">Engineering Projects</a></li>
+                    <li><a href="#hobby">Hobbies</a></li>-->
                 </ul>
-            </div>
+            
         </div>
         <div class="col-sm-6 col-md-6" id="main">
             <h1>About Me</h1>
@@ -27,18 +31,34 @@
                 Hello, my name is Jarell pronounced Juh-Rell not to be confused with JARE-All (Eww..gross) I hate being
                 called that. It takes some people a few times, but thats ok, Im more than happy to help them get it right.
                 Anywho I'm a recent graduate from Ohio Universites class of 2015 <b>GO BOBCATS!!!</b> I am Cleveland born 
-                and raised so that automagically makes me a Cleveland sports fan. GO CAVs, TRIBE and Browns. Yes I'm a Browns fan, we'll get there eventually.
+                and raised so that auto-magically makes me a Cleveland sports fan. GO CAVs, TRIBE and Browns. Yes I'm a Browns 
+                fan, we'll get there eventually....hopefully
             </p>
             <p id="resume">
-                I have a B.S in Engineering Technology and Management with a minor in Business Administration.
+                <h2>Education</h2>
+                <ul>
+                    <li>
+                        We Can Code It
+                        Software Developer Certification Full Stack
+                        Pending: December 2016
+                    </li>
+                    <li>
+                        OHIO University
+                        B.S. Engineering Technology and Management
+                        Minor in Business Administration
+                    </li>
+                </ul>
+                 B.S. Engineering Technology and Management
+                 Minor in Business Administration
                 <h2>Skills</h2>
                 <ul>
-                    <li>Front End </li>
-                    <li>CSS</li>
+                    <li>C# </li>        
+                    <li>CSS</li>        
                     <li>HTML</li>
                     <li>Bootstrap</li>
                     <li>Javascript</li>
-
+                    <li>Git</li>
+                    <li>.Net</li>
                 </ul> 
             </p>
 
@@ -49,39 +69,55 @@
     <div class="row" id="projects">
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-                <img src="wardrobeApp.png" alt="WardrobeApp">
+                <img id="pics" src="wardrobeApp.png" alt="WardrobeApp">
                 <div class="caption">
                     <h3>Wardrobe App</h3>
-                    <p>...</p>
-                    <p> <a href="https://github.com/newbie180/WardrobeApp" class="btn btn-default" role="button">View Code Here</a></p>
+                    <p>Web application for managing your wardrobe. Create outfits, add, edit, view and delete the items 
+                     in your closet.
+                    </p>
+                    <p>
+                        <a class="btn" href="https://github.com/newbie180/WardrobeApp">
+                            <i class="fa fa-github fa-3x" aria-hidden="true">Git</i>
+                        </a>
+                    </p>
                 </div>
             </div>
         </div>
 
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-                <img src="fortuneTellerMvc.png" alt="fortuneTeller">
+                <img id="pics" src="fortuneTellerMvc.png" alt="fortuneTeller">
                 <div class="caption">
                     <h3>Fortune Teller App</h3>
-                    <p>...</p>
-                    <p> <a href="https://github.com/newbie180/Fortune-teller-mvc" class="btn btn-default" role="button">View Code Here</a></p>
+                    <p>Web application that allows the user to find out their fortune based on the information entered.</p>
+                    <p> 
+                        <a id="button" href="https://github.com/newbie180/Fortune-teller-mvc" class="btn" role="button">
+                            <i class="fa fa-github fa-3x" aria-hidden="true">Git</i></a>
+                    </p>
                 </div>
             </div>
         </div>
 
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-                <img src="virtualPet.png" alt="VirtualPet">
+                <img id="pics" src="virtualPet.png" alt="VirtualPet">
                 <div class="caption">
                     <h3>Virtual Pet App</h3>
-                    <p>...</p>
-                    <p> <a href="https://github.com/newbie180/virtual-pet" class="btn btn-default" role="button">View Code Here</a></p>
+                    <p>Application that allows the user to interact with their own virtual pet tiger. Play, feed, or allow the tiger
+                      to do his own thing. </p>
+                    <p> 
+                    <a href="https://github.com/newbie180/virtual-pet" class="btn btn-default" role="button">
+                        <i class="fa fa-github fa-3x" aria-hidden="true">Git</i>
+                      </a>
+                    </p>
                 </div>
             </div>
         </div>
 
     </div>
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/bce7cc61f4.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>                                                      
 </body>
 </html>

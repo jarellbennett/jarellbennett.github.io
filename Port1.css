@@ -7,6 +7,12 @@
     float:left;
     width: 25%;
     box-sizing:border-box;
+    border-bottom:2px solid black;
+}
+
+#sidebar.thumbnail{
+    height:350px;
+    width: 300px;
 }
 
 #main{
@@ -14,8 +20,34 @@
     width: 75%;
     box-sizing:border-box;
     padding-right: 20em;
+    padding-left:5em;
 }
 
-#projects{
 
+.thumbnail{
+    height:450px;
+    width:450px;
+    
+
+}
+
+
+
+#pics{
+    border: 2px thin black;
+    border-radius: 50%;
+    height:300px;
+    width:350px;
+    
+    
+}
+
+.btn{
+    height:50px;
+    width:50px;
+}
+
+
+a{
+    color:#009933;
 }
