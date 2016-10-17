@@ -1,6 +1,8 @@
 ﻿body
 {
     background-image: url('black-and-white-city-skyline-buildings.jpg');
+    font-family:'Lobster', cursive;
+    font-size:15px;
 }
 
 #sidebar{
@@ -10,10 +12,6 @@
     border-bottom:2px solid black;
 }
 
-#sidebar.thumbnail{
-    height:350px;
-    width: 300px;
-}
 
 #main{
     float:left;
@@ -21,21 +19,29 @@
     box-sizing:border-box;
     padding-right: 20em;
     padding-left:5em;
+    
 }
 
+#resume li{
+    float:left;
+    display:inline-block;
+}
 
 .thumbnail{
-    height:450px;
+    height:500px;
     width:450px;
-    
+    background-color:rgba(128, 128, 128, 0.85);
+    font-size:16px;
+    color:white;
+    border:none;
 
 }
 
 
 
 #pics{
-    border: 2px thin black;
     border-radius: 50%;
+    border: 2px thin black;
     height:300px;
     width:350px;
     
@@ -47,7 +53,24 @@
     width:50px;
 }
 
+a {
+    color: rgb(0, 153, 51);
+}
 
-a{
-    color:#009933;
+a:link{
+    color:rgb(0, 153, 51);
+}
+
+a:visited{
+    color:blueviolet;
+}
+
+p{
+    font-family:'Kalam',cursive;
+    color:black;
+
+}
+
+li{
+    color:darkblue;
 }
